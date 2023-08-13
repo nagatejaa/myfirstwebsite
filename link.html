@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>my website</title>
+
+
+    <style>
+          *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#c33ccf,#d6ad34);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 200px;
+
+    
+}
+.sitelinks{
+    flex:1;
+    text-align:right;
+
+}
+.sitelinks ul li{
+    list-style:none;
+    display:inline-block;
+    margin: 0 20px;
+}
+.sitelinks ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.info{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition:1s;
+    
+}
+.feature img{
+    width: 70px;
+    display: flex;
+    color: #fff;
+
+}
+.feature{
+    position:absolute;
+    display: flex;
+    color: #fff;
+}
+.feature{
+    margin-left: 30px;
+}
+.feature div p{
+    margin-top: 8px;
+}
+.one{
+    top: 450px;
+    right:50px;
+}
+.two{
+    top: 150px;
+    left: 350px;
+    transform: rotate(-90deg);
+}
+.three{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+.fo{
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+.mobile{
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left: 300px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 1px 11;
+    color: #fff;
+}
+#dob{
+    width: 100px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+#upb{
+    width: 100px;
+    cursor: pointer;  
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid white ;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid white ;
+    border-left: 500px solid white;
+    left:0;
+    top: 0;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class = "main">
+       <nav>
+         <div class ="logo">
+            <img src = "https://www.coolgenerator.com/Data/Textdesign/202308/053a1f0ec9f246e88f67eb03589137a5.png">
+         </div>
+
+
+
+          <div class = "sitelinks" style="float: right;">
+             <ul>
+                <li><a href = "https://www.google.com">Home</a></li>
+                <li><a href = "https://www.coolgenerator.com/Data/Textdesign/202308/a7d28c762d68a62e2758c106101ad494.png">List</a></li>
+                <li><a href = "https://www.coolgenerator.com/Data/Textdesign/202308/a7d28c762d68a62e2758c106101ad494.png">Benfits</a></li>
+                <li><a href = "https://www.coolgenerator.com/Data/Textdesign/202308/a7d28c762d68a62e2758c106101ad494.png">Cart</a></li>
+                <li><a href = "https://www.linkedin.com/in/nagateja-adulapuram/">MYself</a></li>
+                <li><a href = "https://www.coolgenerator.com/Data/Textdesign/202308/a7d28c762d68a62e2758c106101ad494.png">Account</a></li>
+             </ul>
+          </div>
+       </nav>
+
+       <div class = "info">
+           <div class="overlay"></div>
+           <img src = "https://imgs.search.brave.com/EL6zkQ7-rjhSpjY08vB8qf6HL9fMF9JTGIOwNl8w0HQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvNC9SZWFs/bWUtU21hcnRwaG9u/ZS1QTkcucG5n " class="mobile">
+           <div id="circle">
+               <div class="feature one">
+                   <img src = "https://imgs.search.brave.com/eNPX5L86MI_AmjiBcK1EcZ8Gpatmc0dIy0xkDRRxEc4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pY29u/c3BsYWNlLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvX2ljb25z/L2ZmZmZmZi8yNTYv/cG5nL2Z1bGwtYmF0/dGVyeS1pY29uLTE4/LTI1Ni5wbmc">
+                   <div>
+                        <h1>BATTERY</h1>
+                        <p>50000mah</p>
+                   </div>
+               </div>
+               <div class="feature two">
+                   <img src = "https://th.bing.com/th/id/R.ff674a3ca7fd67abe397ea7bae36c7d2?rik=UCw7IYBWjtE4Hw&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fu%2fF%2fU%2fx%2fz%2fR%2fwhite-camera-md.png&ehk=LnMSGjFjRncyWkCOx2Y9x3qxLV6mN1uIJ6d%2fRBtBHmc%3d&risl=&pid=ImgRaw&r=0">
+                   <div>
+                    <h1>CAMERA</h1>
+                    <p>128MP,wide angle,macro</p>
+                   </div>
+               </div>
+               <div class="feature three">
+                   <img src = "https://www.iconsdb.com/icons/preview/white/cpu-xxl.png">
+                   <div>
+                    <h1>PROCESSOR</h1>
+                    <p>snapdragon 885 gaming</p>
+                   </div>
+               </div>
+               <div class="feature fo">
+                <img src = "https://webstockreview.net/images/white-phone-icon-png-5.png">
+                <div>
+                 <h1>DISPLAY</h1>
+                 <p>5 inch 4k display 144Hz</p>
+                </div>
+            </div>
+           </div>
+        </div>
+
+    <div class="controls">
+       <img src = "https://imgs.search.brave.com/fmTWqhkY-wuuqOEbekvWWnAEZYgq14eaau_0k1O6KJs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jbGlw/YXJ0LWxpYnJhcnku/Y29tL2ltYWdlcy9k/aTlweEs1eFQucG5n" id = "dob">
+       <h3>Features</h3>
+       <img src = "https://imgs.search.brave.com/fmTWqhkY-wuuqOEbekvWWnAEZYgq14eaau_0k1O6KJs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jbGlw/YXJ0LWxpYnJhcnku/Y29tL2ltYWdlcy9k/aTlweEs1eFQucG5n" id = "upb">
+    </div>
+
+    </div>
+    <script>
+        var circle = document.getElementById("circle");
+        var upb = document.getElementById("upb");
+        var dob = document.getElementById("dob");
+
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+
+        dob.onclick=function()
+        {
+            rotateSum=rotateValue+"rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+        upb.onclick=function()
+        {
+            rotateSum=rotateValue+"rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+    </script>
+</body>
+</html>
